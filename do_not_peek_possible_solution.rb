@@ -1,7 +1,8 @@
+require "bundler/setup"
 require "http"
 require "json"
 require "dotenv/load"
-
+ 
 line_width = 40
 
 puts "=" * line_width
